@@ -44,6 +44,7 @@
  				}
  		print('</tr>');
  	}
+ 	print('<tr>< colspan="2"td>'.($contador-1).'contatos listados(s)</td></tr>');
  	print('<table>');
 //funçao abre um arquivo e torna o seu conteudo em uma string
 	$cabecalho=file_get_contents("rodape.html");
