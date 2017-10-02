@@ -14,6 +14,9 @@
 <body>
 <?php
 	print(date("d/m/Y"));
+?>
+	<br></br>
+<?php
 	print(date("l, F d, Y, H:i:s"));
 ?>
 	<section id="cabecalho">
